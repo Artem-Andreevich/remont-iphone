@@ -1,0 +1,393 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	overflow-x: hidden;
+	height: 100%;
+	font-family: 'Cuprum', sans-serif;
+	color: #000;
+  background-color: #F5F5F5;
+}
+ol, ul {list-style: none;}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+a, a:hover {text-decoration: none;}
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: #1BBC9D; /* Цвет линии */
+    color: #1BBC9D; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+}
+h2 {
+    font-size: 50px;
+    color: #333;
+}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+.left {float:left;}
+.right {float:right;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+
+.container {max-width: 960px; margin: 0 auto;}
+
+.transc .transc2{
+	padding: 0 10px 0 10px;
+    text-align: center;
+}
+#transc .send_inu span {
+    padding: 10px 57px 10px 56px;
+}
+#transc3 .send_inu span {
+    padding: 10px 29px 10px 30px;
+}
+.us_n {
+  display: none;
+	color: #7b7b7b;
+    font-size: 15px;
+}
+.inputsu {
+  display: inline-block;
+}
+.send_inu {
+    display: inline-block;
+    margin: 15px 0;
+}
+.send_inu span {
+cursor: pointer;
+    border: 0px #ffc107 solid;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 5px;
+    background-color: #444;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 10px 48px 10px 47px;
+}
+.send_inu span:hover {
+	color: white;
+	background-color: #666;
+}
+.usphone {
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: #444;
+    border-radius: 5px;
+    padding: 8px;
+    min-width: 200px;
+} 
+.forma-price .usphone {
+  min-width: 240px;
+}
+.usphone::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;color: #666;}
+.usphone::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;color: #666;}
+.usphone:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;color: #666;}
+.usphone:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;color: #666;}
+.usphone:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;color: #666;}
+.usphone:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;color: #666;}
+.usphone:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;color: #666;}
+.usphone:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;color: #666;}
+
+.tr_cont_err, .tr_cont {
+	color: #7b7b7b;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.img-responsive {
+  display: block;
+    max-width: 100%;
+    height: auto;
+}
+.white-box {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(186,186,186,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(186,186,186,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(186,186,186,0.5);
+}
+.first {
+  height: 100vh;
+  min-height: 600px;
+  background-image: url(img/bg-1.jpg);
+  background-position: center center;
+}
+.first *{
+  z-index: 3
+}
+.first:after {
+    content: '';
+    position: absolute;
+    height: 100vh;
+    min-height: 600px;
+    background: linear-gradient(to right, #d95e5e, #6d4393);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 0.7;
+}
+.f-text h1 {
+  font-size: 80px
+}
+.socials a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.whatsup a{
+  color: #fff
+}
+.logo a {
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 26px;
+}
+.logo span {
+  color: #ffc107 !important;
+}
+.note {
+    font-size: 12px;
+    line-height: 6px;
+    text-align: right;
+}
+.number {
+      font-size: 27px;
+    line-height: 1px;
+}
+.slide i {
+    font-size: 60px;
+    color: #f7d15f;
+}
+.slide p {
+    font-size: 20px;
+}
+.price {
+  background-color: #F5F5F5;
+  }
+  .price-header p {
+    color: #666;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+    .price-content .nav-link {
+    color: #444;
+    font-size: 18px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+  }
+  .price-content .nav-link.active {
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #f7d15f;
+    background-color: #f7d15f;
+    border-radius: 4px;
+  }
+  .nav-tabs .nav-link:hover{
+    background-color: #fdd55b;
+    border-color: #fdd55b;
+    color: #fff
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.price h3 {
+    font-size: 40px;
+    color: #333;
+}
+.price h3 span {
+    color: #f7d15f;
+}
+.forma-price .send_inu span {
+    cursor: pointer;
+    border: 0px #ffc107 solid;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 5px;
+    background-color: #f7d15f;
+    color: #222;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 10px 48px 10px 47px;
+}
+.forma-price p {
+font-size: 25px;
+    color: #efefef;
+}
+.content-right i {
+    font-size: 30px;
+    color: #fff;
+    background-color: #f7d15f;
+    border-radius: 45px;
+    padding: 10px;
+        margin: 0 15px 0 10px;
+}
+.price-footer p{
+    color: #666;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.price-footer span{
+    color: #222;
+    font-size: 25px;
+    line-height: 1.4;
+}
+.price .content-left a {
+  text-decoration: underline dashed;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #777;
+}
+.content-left .table {margin-bottom: 0}
+.nav-model {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.coments {
+  height: 100%;
+  background-color: #fff;
+}
+.coments p {
+    color: #666;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.card-body h4:after {
+    content: url(img/stars.png);
+    display: block;
+    margin: 0 auto;
+}
+.card-body p {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+}
+.card {
+  max-width: 350px;
+  border:none;
+  width: 100% !important;
+  margin:0 auto;
+  box-shadow: 0px 6px 23px 0px rgba(0, 0, 0, 0.1);
+}
+.slide-one .owl-dots {
+  display: none;
+}
+.slide-two .owl-item{
+    transform: scale(0.9);
+    transition: all 0.3s ease-in;
+}
+.slide-two .owl-item.active{
+    transform: scale(0.9);
+    transition: all 0.3s ease-in;
+}
+.slide-two .owl-item.active.center {
+    transform: scale(1);
+    transition: all 0.3s ease-in;
+}
+.owl-dots {
+      margin: 10px 0;
+  text-align: center;
+}
+.owl-dot {
+    display: inline-block;
+    background: #e7d9eb;
+    margin: 0 4px;
+    width: 35px;
+    height: 8px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+}
+.owl-dot.active {
+  background: #ff487e;
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+}
+.contacts {
+  position: relative;
+}
+.footer {
+  background-color: #444;
+}
+.map-banner {
+    border-radius: 4px;
+    background: #ffffff;
+    position: absolute;
+    top: 120px;
+    right: 4%;
+    padding: 35px 25px;
+    text-align: center;
+}
+.map-banner .text span {
+    font-size: 24px;
+    color: #e65a67;
+}
+.map-banner p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+}
+.btn_pay {
+    cursor: pointer;
+    border: 0px #ffc107 solid;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 5px;
+    background-color: #f7d15f;
+    color: #222;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 10px 48px 10px 47px;
+}

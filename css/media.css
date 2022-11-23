@@ -1,0 +1,91 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.map-banner {
+    position: relative;
+    top: 0;
+    right: 0;
+    border-radius: 0px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.f-text h1 {
+    font-size: 55px;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+.number {
+    font-size: 24px;
+}
+.logo a {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.usphone {
+    margin-right: 0px;
+}
+h2 {
+    font-size: 30px;
+}
+.price h3 {
+    font-size: 35px;
+    text-align: center;
+}
+.price-content .nav-link {
+    border: 2px solid #f7d15f;
+}
+.modal .usphone {
+  min-width: 230px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 356px) {
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 500px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+}
+
+ /* Extra Large Devices, Wide Screens */
+@media only screen and (min-width : 1500px) {
+
+}
